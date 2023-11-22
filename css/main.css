@@ -1,0 +1,68 @@
+/* public-sans-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/public-sans-v15-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/public-sans-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* public-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/public-sans-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *,
+  *::after
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    flex-grow: 1;
+    scroll-behavior: smooth;
+    height: 100%;
+  }
+
+  ul, ol {
+    cursor: pointer;
+    list-style: none;
+  }
+
+
+  button {
+    cursor: pointer;
+    border: none;
+    font-family: 'Public Sans';
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    color: #9597A5;
+  }
+
+  img {
+    cursor: pointer;
+    display: flex;
+  }
+
+  body {
+    height: 100%;
+    font-family: 'Public Sans'; 
+  }
